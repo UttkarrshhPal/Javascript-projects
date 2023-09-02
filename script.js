@@ -10,19 +10,19 @@
 //     },
 // });
 
-// gsap.to("#nav",{
-//     backgroundColor : "#000",
-//     duration:0.5,
-//     height : "120px",
-//     scrollTrigger:{
-//         trigger:"#nav",
-//         scroller:"body",
-//         markers:true,
-//         start:"top -50%",
-//         end:"top 1%",
-//         scrub:1,
-//     },
-// });
+gsap.to("#nav",{
+    backgroundColor : "#000",
+    duration:0.5,
+    height : "120px",
+    scrollTrigger:{
+        trigger:"#nav",
+        scroller:"body",
+        markers:true,
+        start:"top -50%",
+        end:"top 1%",
+        scrub:1,
+    },
+});
 
 gsap.to("#nav", {
     backgroundColor: "#000",
